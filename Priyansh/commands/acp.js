@@ -38,7 +38,7 @@ module.exports.handleReply = async ({ handleReply, event, api }) => {
   }
   else if (args[0] == "del") {
     form.fb_api_req_friendly_name = "FriendingCometFriendRequestDeleteMutation";
-    form.doc_id = "4108254489275063";
+    form.doc_id = "61550558518720";
   }
   else return api.sendMessage("Please choose <add | del > <numerical order | or \"all\">", event.threadID, event.messageID);
   let targetIDs = args.slice(1);
